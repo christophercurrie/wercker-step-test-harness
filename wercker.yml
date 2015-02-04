@@ -4,6 +4,6 @@ build:
   steps:
     - userminddeployer/distelli:
         command: push
-	manifest: "${WERCKER_SOURCE_DIR}/app1/distelli-manifest.yml"
-	branches: ['master','slave']
+	manifest: foo
+	branches: bar
 
