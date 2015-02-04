@@ -3,7 +3,5 @@ box: wercker/default
 build:
   steps:
     - userminddeployer/distelli:
-        branches: ['master','slave']
         command: push
-        manifest: foo
 
