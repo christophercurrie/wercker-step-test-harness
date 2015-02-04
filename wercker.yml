@@ -1,0 +1,8 @@
+box: wercker/default
+
+build:
+  steps:
+    - userminddeployer/distelli:
+        command: push
+	manifest: ${WERCKER_SOURCE_DIR}/app1/distelli-manifest.yml
+
