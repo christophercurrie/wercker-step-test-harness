@@ -1,0 +1,5 @@
+codemonkey/wercker-step-test-harness:
+  CommitData:
+    - RepoType: Git
+    - RepoPath: .
+
