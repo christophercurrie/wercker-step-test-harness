@@ -5,6 +5,8 @@ build:
     - userminddeployer/distelli:
         command: push
         manifest: app1/distelli-manifest.yml
+        accessKey: ${DISTELLI_ACCESS_KEY}
+        secretKey: ${DISTELLI_SECRET_KEY}
 
     - userminddeployer/distelli:
         command: deploy
