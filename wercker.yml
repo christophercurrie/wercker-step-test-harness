@@ -9,4 +9,5 @@ build:
     - userminddeployer/distelli:
         command: deploy
         manifest: app1/distelli-manifest.yml
+        host: kosmos
 
