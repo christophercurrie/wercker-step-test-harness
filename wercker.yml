@@ -9,4 +9,5 @@ build:
     - userminddeployer/distelli:
         command: push
         manifest: app1/distelli-manifest.yml
+        branches: [master]
 
