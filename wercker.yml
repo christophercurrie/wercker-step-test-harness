@@ -6,3 +6,7 @@ build:
         command: push
         manifest: app1/distelli-manifest.yml
 
+    - userminddeployer/distelli:
+        command: deploy
+        manifest: app1/distelli-manifest.yml
+
