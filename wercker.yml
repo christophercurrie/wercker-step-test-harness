@@ -2,12 +2,7 @@ box: wercker/default
 
 build:
   steps:
-    - script:
-        name: Show init.sh
-        code: cat '/wercker/wercker-build-essentials/init.sh'
-
     - userminddeployer/distelli:
         command: push
         manifest: app1/distelli-manifest.yml
-        branches: [master]
 

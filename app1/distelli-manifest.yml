@@ -4,3 +4,5 @@ codemonkey/wercker-step-test-harness:
     - RepoPath: .
   Exec:
     app.sh
+  PkgInclude:
+    - app.sh
