@@ -10,4 +10,6 @@ build:
         command: deploy
         manifest: app1/distelli-manifest.yml
         host: kosmos
+        accessKey: ${DISTELLI_ACCESS_KEY}
+        secretKey: ${DISTELLI_SECRET_KEY}
 
