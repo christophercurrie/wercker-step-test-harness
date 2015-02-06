@@ -1,2 +1,2 @@
-Test harness for wercker steps
+Test harness for wercker steps. Nothing to see here.
 
