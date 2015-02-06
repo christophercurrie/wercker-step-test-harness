@@ -11,7 +11,7 @@ build:
     - userminddeployer/distelli:
         command: deploy
         manifest: app1/distelli-manifest.yml
-        host: kosmos
+        host: sputnik
         accessKey: ${DISTELLI_ACCESS_KEY}
         secretKey: ${DISTELLI_SECRET_KEY}
 
